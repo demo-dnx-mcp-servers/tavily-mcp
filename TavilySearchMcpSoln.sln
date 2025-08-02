@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavily.McpServer", "src\Tavily.McpServer.csproj", "{CBC2222E-2F91-CE82-1E56-1D477DC03EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC2222E-2F91-CE82-1E56-1D477DC03EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC2222E-2F91-CE82-1E56-1D477DC03EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC2222E-2F91-CE82-1E56-1D477DC03EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC2222E-2F91-CE82-1E56-1D477DC03EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBC2222E-2F91-CE82-1E56-1D477DC03EDC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {897B3551-9E33-4027-92B8-3A8BCB79271D}
+	EndGlobalSection
+EndGlobal

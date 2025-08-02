@@ -1,0 +1,34 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "Production ready MCP server with real-time search, extract, map & crawl powered by Tavily ",
+  "name": "io.github.demo-dnx-mcp-servers/tavily-mcpserver",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "Tavily.McpServer",
+      "version": "0.1.0-beta",
+      "package_arguments": [],
+      "environment_variables": [
+        {
+          "name": "TAVILY_API_KEY",
+          "description": "Enter Tavily API Key",
+          "is_required": true,
+          "is_secret": true
+        },
+        {
+          "name": "TAVILY_BASE_ADDRESS",
+          "description": "Enter Tavily Base Address",
+          "is_required": false,
+          "is_secret": false
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/demo-dnx-mcp-servers/tavily-mcpserver",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.1.0-beta"
+  }
+}
